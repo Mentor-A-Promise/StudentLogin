@@ -1,0 +1,70 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+.header
+{
+	position: fixed;
+	background-color: yellow;
+    float: right;
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+    margin-top: 0%;
+}
+
+ul
+{
+	position: relative;
+	float: right;
+	margin-right: 70px;
+}
+
+ul li 
+{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 20px;
+}
+
+ul li a 
+{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+
+.content
+{
+    margin-left: 10%;
+	margin-top: 10%;
+}
+.container {
+    display:flex;
+}
+
+.box-2
+{
+    border: 1px solid
+    border-radius:5px;
+    height:600px;
+    width:250px;
+    background-color:rgb(228, 223, 223);
+    margin-left:600pt;
+    
+}
+
+.box-1
+{
+    height:450px;
+    width:600px;
+    background-color: rgb(226, 224, 224);
+	margin-left: 70px;
+    
+    
+}
+.row {
+    padding-top: 50px; /* Adjust this value as needed */
+}

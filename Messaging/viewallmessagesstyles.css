@@ -1,0 +1,76 @@
+.outer-container {
+    border: 2px solid green; /* Green border */
+    padding: 15px;           /* Padding inside the container */
+    border-radius: 5px;      /* Optional rounded corners */
+    max-width: 50%;          /* Adjust as needed for layout */
+    margin: 0 auto;          /* Center align the container */
+    box-sizing: border-box;  /* Ensure padding does not increase width */
+    background-color: #fafafa; /* Optional background color */
+}
+
+/* General message container styling */
+.message-container {
+    display: flex;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative; /* Relative positioning for the container */
+    min-height: 80px; /* Minimum height to ensure space for bottom-right elements */
+    padding-bottom: 30px; /* Extra bottom padding for the bottom-right section */
+}
+
+/* Content of the message */
+.message-content {
+    max-width: 50%;
+    margin-bottom: 10px; /* Space from the content */
+}
+
+/* Styling for reply link */
+.reply-link {
+    text-decoration: underline;
+    color: blue;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+.reply-link:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* Separator for top-level messages */
+.separator {
+    border-top: 3px dotted #ccc;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Bottom-right container for timestamp and reply link */
+.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px; /* Space between timestamp and link */
+    font-size: 0.9em;
+    color: #555; /* Light color for the timestamp */
+    align-items: center;
+}
+
+.green-button {
+    background-color: #006305; /* Green color */
+    color: white;              /* White text color */
+    padding: 10px 10px;        /* Padding for size */
+    border: none;              /* Remove default border */
+    border-radius: 8px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;           /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
